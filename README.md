@@ -1,5 +1,6 @@
 # ASAP_CRN_data_analysis_scripts
 Scripts used in data analysis for ASAP CRN projects
+For more information, please contact mghcompbio@gmail.com
 
 ## Single nuclei sequencing of brain regions from healthy and Parkinson's Disease individuals
 The relevant information is located in the [snRNA_analysis](https://github.com/mhammell-laboratory/ASAP_CRN_data_analysis_scripts/tree/main/snRNA_analysis) folder. It contains two files:
