@@ -1,0 +1,27 @@
+### YAML file containing information for data processing
+
+software:
+    - name: cellranger
+    - version: 5.0.1
+
+database:
+    - name: GRCh38_GCv35_TE
+    - organism: human
+    - genome_build: GRCh38
+    - chromosome_nomenclature: GENCODE
+    - gene_gtf: GENCODE human version 35
+    - TE_gtf: GRCh38 parsed RepeatMasker output
+
+run_parameters:
+    - program: cellranger
+    - mode: count
+    - id: simplified sample name (e.g. ASAP1_SN)
+    - jobmode: local
+    - localcores: 16
+    - localmem: 128
+    - transcriptome: GRCh38_GCv35_TE
+    - fastqs: fastqs
+    - sample: sampleID (e.g. ASAP1_PD_NP16-162_SN)
+    - include_introns: yes
+    - full_command_line: cellranger count --id=${ID} --jobmode=local --localcores=16 --localmem=128 --transcriptome=GRCh38_GCv35_TE --fastqs=fastqs --sample=${SAMPLEID} --include-introns
+
