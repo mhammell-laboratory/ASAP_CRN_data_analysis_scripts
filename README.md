@@ -1,5 +1,5 @@
 # ASAP_CRN_data_analysis_scripts
-Scripts used in data analysis for ASAP CRN projects.
+Scripts used in data analysis for ASAP CRN projects of Team Jakobsson.
 
 For more information, please contact mghcompbio@gmail.com
 
