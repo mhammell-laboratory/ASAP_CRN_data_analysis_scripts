@@ -59,7 +59,7 @@ You can also contact mghcompbio@gmail.com if you have not received a response mo
 This will be updated upon publication
 
 ## Licence / Code of Conduct
-This software is distributed under the MIT licence per ASAP Open Access (OA) policy facilitates the rapid and free exchange of scientific ideas, ensuring that ASAP-funded research fund can be leveraged for future discoveries.
+This software is distributed under the MIT licence per ASAP Open Access (OA) policy, which facilitates the rapid and free exchange of scientific ideas and ensures that ASAP-funded research fund can be leveraged for future discoveries.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
