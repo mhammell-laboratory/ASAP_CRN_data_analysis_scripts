@@ -47,18 +47,18 @@ The YAML file contains the command to be used for Cell Ranger to generate the co
 $ cellranger count --id=ASAP1_SN --jobmode=local --localcores=16 --localmem=128 --transcriptome=GRCh38_GCv35_TE --fastqs=fastqs --sample=ASAP1_PD_NP16-162_SN --include-introns
 ```
 
-### Limitation
+## Limitation
 The custom databases generation script is specific to GENCODE annotation version 35. If you require another version, please modify the script to download the corresponding annotation.
 
-### Questions and issues
+## Questions and issues
 Please feel free to use the [Issues page](https://github.com/mhammell-laboratory/ASAP_CRN_data_analysis_scripts/issues) to post any questions or issues.
 
 You can also contact mghcompbio@gmail.com if you have not received a response more than a week after posting on the Issues page.
 
-### Citation
+## Citation
 This will be updated upon publication
 
-### Licence / Code of Conduct
+## Licence / Code of Conduct
 This software is distributed under the MIT licence per ASAP Open Access (OA) policy facilitates the rapid and free exchange of scientific ideas, ensuring that ASAP-funded research fund can be leveraged for future discoveries.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -68,6 +68,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 A copy of this licence is included along with the software, and can be accessed [here](https://github.com/mhammell-laboratory/ASAP_CRN_data_analysis_scripts/blob/main/LICENSE).
 
-### Acknowledgment
+## Acknowledgment
 - Contributors: Anita Adami, Talitha Forcier, Raquel Garza, Annelies Quagebeur, Yogita Sharma, Oliver Tam, Cole Wunderlich, Roger Barker, Molly Gale Hammell, Agnete Kirkeby and Johan Jakobsson
 - Aligning Science Across Parkinson’s (ASAP-000520) through the Michael J. Fox Foundation for Parkinson’s Research (MJFF).
