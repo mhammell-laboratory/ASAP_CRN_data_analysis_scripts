@@ -102,7 +102,7 @@ zcat "${TE_IN}" | sort -k1,1 | join -t "	" -j 1 "${CHRFILES}" - > "${TE_FILTERED
 
 ## Combine the two GTF into a single file for Cell Ranger
 COMBINED_GTF="GRCh38_GCv35_TE.gtf"
-cat "${GTF_FILTERED}" "${COMBINED_GTF}" > "${COMBINED_GTF}"
+cat "${GTF_FILTERED}" "${TE_FILTERED}" > "${COMBINED_GTF}"
 
 ## Build the custom Cell Ranger reference database
 cellranger mkref --genome="GRCh38_GCv35_TE" --fasta="${FASTA}" --genes="${COMBINED_GTF}" --memgb=40 --nthreads=10
