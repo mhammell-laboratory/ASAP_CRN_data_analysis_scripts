@@ -70,4 +70,5 @@ A copy of this licence is included along with the software, and can be accessed 
 
 ## Acknowledgment
 - Contributors: Anita Adami, Talitha Forcier, Raquel Garza, Annelies Quagebeur, Yogita Sharma, Oliver Tam, Cole Wunderlich, Roger Barker, Molly Gale Hammell, Agnete Kirkeby and Johan Jakobsson
+
 This research was funded in whole by Aligning Science Across Parkinson’s (ASAP-000520) through the Michael J. Fox Foundation for Parkinson’s Research (MJFF).
